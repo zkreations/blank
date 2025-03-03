@@ -1,0 +1,40 @@
+{
+  "name": "blank",
+  "version": "1.0.0",
+  "description": "A blank starter theme for Blogger",
+  "type": "module",
+  "scripts": {
+    "dev": "hamlet --mode development --watch",
+    "start": "hamlet --mode production --watch",
+    "build": "hamlet --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkreations/blank.git"
+  },
+  "author": "zkreations <daniel@zkreations.com> (https://zkreations.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkreations/blank/issues"
+  },
+  "homepage": "https://github.com/zkreations/blank#readme",
+  "dependencies": {
+    "hamlet-builder": "^1.0.37"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-standard": "^17.1.0"
+  },
+  "theme": {
+    "name": "Blank",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "browserslist": [
+    ">= 1%",
+    "last 2 major versions",
+    "not dead",
+    "not edge <= 18",
+    "not ie <= 11"
+  ]
+}
