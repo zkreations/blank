@@ -10,12 +10,6 @@ Clone, fork, or download this repository to your PC, and within the root directo
 - `npm run start` To start listening to changes and automatically compile the files in production mode.
 - `npm run build` To compile only once.
 
-## Compiler
-
-
-![hamlet-builder](https://raw.githubusercontent.com/zkreations/hamlet/main/static/hamlet-builder.png)
-
-
 ## Supporting
 
 If you want to help me keep this and more related projects always up to date, you can [buy me a coffee](https://ko-fi.com/zkreations) ☕. I will be very grateful 👏.
