@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/zkreations/blank#readme",
   "dependencies": {
-    "hamlet-builder": "^1.0.37"
+    "hamlet-builder": "^1.0.38"
   },
   "devDependencies": {
     "eslint": "^8.57.1",
