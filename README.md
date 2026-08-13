@@ -1,23 +1,37 @@
 # Blank
 
-A blank theme for Blogger created with Hamlet Builder. The compiler is an independent module of this project, you can find it in the repository [Hamlet Builder](https://github.com/zkreations/hamlet-builder), where you will also find the necessary documentation for its use.
+A blank starter theme for Blogger created with [Hamlet Builder](https://github.com/zkreations/hamlet-builder). The compiler is an independent module of this project — refer to its repository for full documentation.
 
 ## Getting Started
 
-Clone, fork, or download this repository to your PC, and within the root directory of this folder, run in console `npm install` to install the necessary dependencies. To finish the installation, you can use any of the following commands:
+Clone, fork, or download this repository, then run the following command in the root directory to install dependencies:
 
-- `npm run dev` To start listening to changes and automatically compile the files in development mode.
-- `npm run start` To start listening to changes and automatically compile the files in production mode.
-- `npm run build` To compile only once.
+```bash
+npm install
+```
+
+## Scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Watch for changes and compile in development mode |
+| `npm run start` | Watch for changes and compile in production mode |
+| `npm run build` | Compile once in production mode |
+| `npm run info` | Display Hamlet Builder info |
+| `npm run lint` | Run ESLint |
+| `npm run lint:fix` | Run ESLint and auto-fix issues |
+
+## Linting
+
+This project uses [ESLint](https://eslint.org/) with the [@antfu/eslint-config](https://github.com/antfu/eslint-config) preset for consistent code style.
 
 ## Supporting
 
-If you want to help me keep this and more related projects always up to date, you can [buy me a coffee](https://ko-fi.com/zkreations) ☕. I will be very grateful 👏.
-
+If you want to help keep this and more related projects up to date, you can [buy me a coffee](https://ko-fi.com/zkreations) ☕. I will be very grateful 👏.
 
 ## Create your beautiful theme
 
-If you used this repository as a template, please, add a star ⭐ and add the following tags in yours:
+If you used this repository as a template, please add a star ⭐ and add the following tags to yours:
 
 - `blogger-hamlet`
 - `blogger-handlebars`
@@ -27,4 +41,4 @@ Thanks for using this repository. Happy coding! 🚀
 
 ## License
 
-**Blank** is licensed under the MIT License
+**Blank** is licensed under the [MIT License](LICENSE).
