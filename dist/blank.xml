@@ -8,11 +8,9 @@
     <meta expr:content='data:view.description.escaped' name='description'/>
     <link expr:href='data:view.url.canonical' rel='canonical'/>
     <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/>
-    <b:if cond='data:view.isLayoutMode'>
-      <b:skin><![CDATA[]]></b:skin>
-    </b:if>
+    <b:if cond='data:view.isLayoutMode'><b:skin><![CDATA[]]></b:skin></b:if>
     <style>/*<![CDATA[*/
-      /* Add your css here */
+      /* All css here */
     /*]]>*/</style>
     <b:defaultmarkups>
       <b:defaultmarkup type='All'>
@@ -92,6 +90,7 @@
         <b:includable id='threadedCommentForm'/>
         <b:includable id='threadedCommentJs'/>
         <b:includable id='threadedComments'/>
+        <b:includable id='tooltipCss'/>
       </b:defaultmarkup>
       <b:defaultmarkup type='BlogArchive'>
         <b:includable id='flat'/>
@@ -141,9 +140,8 @@
     </b:defaultmarkups>
   </head>
   <body>
-    <!-- Add your content here -->
-    <b:if cond='data:view.isLayoutMode'>
-      <b:section id='main'/>
-    </b:if>
+    <!-- All content here -->
+
+    <b:section cond='data:view.isLayoutMode' id='main'/>
   </body>
 </html>

@@ -11,24 +11,18 @@
     <link expr:href='data:view.url.canonical' rel='canonical'/>
     <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/>
     {{!-- Disable b:skin --}}
-    <b:if cond='data:view.isLayoutMode'>
-      <b:skin><![CDATA[]]></b:skin>
-    </b:if>
-    {{!-- All css here --}}
+    <b:if cond='data:view.isLayoutMode'><b:skin><![CDATA[]]></b:skin></b:if>
     <style>/*<![CDATA[*/
-      /* Add your css here */
+      /* All css here */
     /*]]>*/</style>
-    {{!-- Default markups --}}
     <b:defaultmarkups>
-      {{!-- Clean all inclusions of all widgets automatically  --}}
-      {{> super.defaultmarkups}}
+      {{> hamlet.defaultmarkups}}
     </b:defaultmarkups>
   </head>
   <body>
-    <!-- Add your content here -->
+    <!-- All content here -->
+
     {{!-- Disable obligatory b:section --}}
-    <b:if cond='data:view.isLayoutMode'>
-      <b:section id='main'/>
-    </b:if>
+    <b:section cond='data:view.isLayoutMode' id='main'/>
   </body>
 </html>
